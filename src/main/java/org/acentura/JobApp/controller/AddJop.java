@@ -16,7 +16,7 @@ public class AddJop {
 
     @GetMapping("/")
     public void SayHello(Response response) {
-        System.out.println("Hello");
+        System.out.println("Hello world");
     }
 
     @PostMapping("/book/create")
